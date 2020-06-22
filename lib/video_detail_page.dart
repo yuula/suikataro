@@ -5,7 +5,11 @@ class VideoDetailPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Container(),
+      body: Center(
+          child: Container(
+            child: Text('動画'),
+          ),
+      ),
     );
   }
 
