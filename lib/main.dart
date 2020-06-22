@@ -6,20 +6,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('YouTubeアプリ'),
-      ),
-      body: Center(
-        child: Container(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('YouTubeアプリ'),
+        ),
+        body: Container(),
       ),
     );
   }
